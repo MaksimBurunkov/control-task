@@ -12,7 +12,7 @@ body {
 }
 .container {
 	background: url(../img/backgroundcont.png) no-repeat center top/ cover;
-    width: 1120px;
+    width: 1520px;
     margin: 0 auto;
 	display:flex;
 	flex-direction: column;
@@ -71,7 +71,7 @@ li:first-child {
 .main{
 	background: url(../img/backgroundcol.png) no-repeat center top/ cover;
 	width: 800px;
-	height:700px;
+	height:775px;
 	display:flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -183,10 +183,18 @@ h2{
 .footer {
 	display:flex;
 	flex-direction: column;
-/*justify-content:flex-start;
-	height:500px;*/
+	justify-content:flex-start;
+	align-items:center;
+	height:300px;
+}
+.thirdline img {
+	width:800px;
 }
 .copyright {
 	display:flex;
+	justify-content:space-around;
 	align-items:center;
+}
+.copyright p {
+	color:#ffffff;
 }
