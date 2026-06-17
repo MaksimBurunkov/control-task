@@ -1,0 +1,192 @@
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+	margin: 0;
+	background: url(../img/background.jpg) no-repeat center top/ cover;
+    background-size: cover;
+}
+.container {
+	background: url(../img/backgroundcont.png) no-repeat center top/ cover;
+    width: 1120px;
+    margin: 0 auto;
+	display:flex;
+	flex-direction: column;
+	/*justify-content: space-around;*/
+	align-items: center;
+}
+.header{
+	
+	display: flex;
+	flex-direction:column;
+	
+}
+h1{
+	padding-top: 150px;
+	align-self: center;
+	font-family: 'Mea Culpa', cursive;
+	color:#ffffff;
+	font-size: 130px;
+	line-height: 0px;
+}
+nav {
+    height: 100px;
+    align-self: center;
+}
+nav li {
+    display: inline-block;
+   margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Mea Culpa', cursive;
+	color:#ffffff;
+	font-size: 42px;
+}
+nav a:hover {
+    color: #fce38a;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fce38a;
+}
+ul {
+    padding:5px; 
+ }
+li {
+    display: inline;
+    background-image: url(../img/yellowheart.png); 
+    background-repeat: no-repeat;                     
+    background-position: left center;                
+	background-size: 40px auto;
+    padding: 0 0 0 80px;
+ }
+li:first-child {
+    border:none;
+	background:none;
+}
+.main{
+	background: url(../img/backgroundcol.png) no-repeat center top/ cover;
+	width: 800px;
+	height:700px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.firstcolumn{
+	margin-left:20px;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+	
+}
+h2{
+	align-self: center;
+	margin-left:20px;
+	font-family: 'Mea Culpa', cursive;
+	color:#000000;
+	font-size: 50px;
+	line-height: 0px;
+}
+.weddingceremony{
+	display:flex;
+	margin-left:65px;
+	align-items:center;
+}
+.redheart img {
+	width:140%;
+}
+.firstmain {
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.firsttext {
+	display:flex;
+	flex-direction: column;
+	flex-basis: 50%;
+}
+.firsttext a{
+	text-decoration: none;
+	color: #000000;
+	align-self:flex-end;
+}
+.firsttext a:hover {
+    color: #ff0000;
+}
+.WCimg img{
+	width:170%;
+}
+.firstline{
+	align-self: center;
+}
+.firstline img {
+	margin-left:40px;
+	width:680px;
+	align-self: center;
+}
+.column{
+	margin-left:70px;
+	display:flex;
+	justify-content: space-around;
+	width: 700px;
+}
+.secondcolumn {
+	flex-basis: 70%;
+}
+.firstdating {
+	display:flex;
+	align-items:center;
+}
+.FDimg img {
+	width:100%;
+}
+.secondtext {
+	display:flex;
+	flex-direction: column;
+}
+.secondtext a {
+	text-decoration: none;
+	color: #000000;
+	align-self:flex-end;
+}
+.secondtext a:hover {
+    color: #ff0000;
+}
+.secondline img {
+	height:400px;
+	align-self: center;
+}
+.thirdcolumn{
+	/*flex-basis: 40%;*/
+}
+.ourwedding {
+	display:flex;
+	align-items:center;
+}
+.thirdtext {
+	display:flex;
+	flex-direction: column;
+}
+.thirdtext a {
+	text-decoration: none;
+	color: #000000;
+	align-self:flex-end;
+}
+.thirdtext a:hover {
+	color: #ff0000;
+}
+.footer {
+	display:flex;
+	flex-direction: column;
+/*justify-content:flex-start;
+	height:500px;*/
+}
+.copyright {
+	display:flex;
+	align-items:center;
+}
